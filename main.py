@@ -1,13 +1,24 @@
-import random
+import os
+
 
 print("""
       Добро пожаловать в казино
       Испытай свою удачку :> 
 """)
 
-die = random.randint(1, 6)
+print("""
+Во что хотите поиграть?))
+1)Кубики
+2)Хз
+""")
 
-print
+Choose = int(input("Что вы выбираете?: "))
+if Choose ==1:
+      os.system("Clear")
+      os.system("python3 cube.py")
 
-#bet = int(input("Введитек число от 1 до 6: "))
+elif Choose ==2:
+      print("Скоро выйдет")      
 
+else:
+      print("Такого номера нету :/")
