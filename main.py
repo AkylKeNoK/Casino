@@ -9,7 +9,8 @@ print("""
 print("""
 Во что хотите поиграть?))
 1)Кубики
-2)Хз
+2)Сгенирировать пароль
+3)
 """)
 
 Choose = int(input("Что вы выбираете?: "))
@@ -18,7 +19,8 @@ if Choose ==1:
       os.system("python3 cube.py")
 
 elif Choose ==2:
-      print("Скоро выйдет")      
+      os.system("clear")
+      os.system("python3 generate.py")      
 
 else:
       print("Такого номера нету :/")
