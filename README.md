@@ -1,2 +1,2 @@
-# Tkinter
-Project write for tkinter
+# Casino
+practice on python
