@@ -1,2 +1,3 @@
 # Casino
-practice on python
+practice on python modules (random)
+
