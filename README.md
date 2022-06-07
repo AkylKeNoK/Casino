@@ -1,2 +1,2 @@
 # Tkinter
-Project write for tkinter(Port Scanner)
+Project write for tkinter
